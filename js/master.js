@@ -41,6 +41,10 @@ function setNavigation() {
 		if (path.substring(0, href.length) === href) {
 					$(this).closest('li').addClass('act');
 		}
+		
+		if(path==="index.html" || path===""){
+			$(".loginNav").hide()
+			}
 		/*else if(path==="PipelineAnalyser.html" || path==="Summary.html" || path==="RelativeCompetitiveStrength.html" || path==="LaunchTimelines.html" || path==="Brands.html"){
 					$(".Navigation>ul>li:nth-child(2)").addClass('act');
 			}*/
