@@ -8,14 +8,14 @@ a{color:#9d03ff; text-decoration:none; outline:none;transition:all 300ms ease-in
 a:hover, a:focus{text-decoration:none; color:#9d03ff;}
 .img_v{vertical-align:middle;}
 .container {width: 1180px;max-width: none !important;}
-body>.container{background:url(../img/bg.jpg) center -100px no-repeat #000 fixed;}
+body>.container{background:url(../img/bg.jpg) center -100px no-repeat #000 fixed; padding-bottom:20px !important;}
 
 header, footer, section, nav, article, address, aside, section{display:block;}
 
 /* Sticky footer styles
 -------------------------------------------------- */
 html {position: relative; min-height: 100%;}
-body {margin-bottom: 30px;}
+/*body {margin-bottom: 30px;}*/
 .footer {/*position: absolute; bottom: 0;*/ width: 100%; height: 30px; line-height:30px; font-size:10px; background:#000; text-align:center}
 /* Custom page CSS
 -------------------------------------------------- */
@@ -96,6 +96,13 @@ body > .container { padding:0 15px;}
 
 .vImg{background:url(../img/verticalImage.png) center center no-repeat;}
 .hImg{background:url(../img/HorizontalImage.png) center center no-repeat;}
+
+.colorDrop{position:relative;}
+.colorDrop>span{position:absolute;width: 60px;height: 24px;display:block;top: 4px;right: 5px;border-radius: 11px;}
+.colorDrop>ul{position:absolute; top:100%; right:0; width:100%; z-index:2; display:none;}
+.colorDrop>ul>li{height:24px; border-radius:11px; margin-top:4px; border:2px solid transparent; transition:all 300ms ease-in-out}
+.colorDrop>ul>li:hover, .colorDrop>ul>li.selected{border-color:#000;}
+.colorDrop:hover>ul{display:block;}
 /*-----------------------Body CSS end------------------------*/
 
 

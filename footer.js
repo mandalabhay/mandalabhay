@@ -1,4 +1,4 @@
-document.write('<div class="paddingBottom20 creatHeight"></div>'+
+document.write(//'<div class="paddingBottom20 creatHeight"></div>'+
 '<div class="footer">'+
   '&copy; COPYRIGHTS 2016. ALL RIGHTS RESERVED.'+
 '</div>')
