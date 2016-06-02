@@ -8,6 +8,12 @@ $(function(){
 		}); 
 	}
 	
+	if($('.removeX').length>0){
+		$('.removeX').click(function(){
+		  $(this).children("input").val("")
+		}); 
+	}
+	
 	// Navigation Active Class Funcion 
   	setNavigation()
 	
