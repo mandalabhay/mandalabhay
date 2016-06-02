@@ -15,7 +15,7 @@ header, footer, section, nav, article, address, aside, section{display:block;}
 -------------------------------------------------- */
 html {position: relative; min-height: 100%;}
 body {margin-bottom: 30px;}
-.footer {position: absolute; bottom: 0; width: 100%; height: 30px; line-height:30px; font-size:10px; background:#000; text-align:center}
+.footer {/*position: absolute; bottom: 0;*/ width: 100%; height: 30px; line-height:30px; font-size:10px; background:#000; text-align:center}
 /* Custom page CSS
 -------------------------------------------------- */
 /* Not required for template or sticky footer method. */
