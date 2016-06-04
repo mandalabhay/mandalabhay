@@ -8,7 +8,7 @@ a{color:#9d03ff; text-decoration:none; outline:none;transition:all 300ms ease-in
 a:hover, a:focus{text-decoration:none; color:#9d03ff;}
 .img_v{vertical-align:middle;}
 .container {width: 1180px;max-width: none !important;}
-body>.container{background:url(../img/bg.jpg) center -100px no-repeat #000 fixed; padding-bottom:20px !important;}
+body>.container{background:url(../img/bg.jpg) center -100px no-repeat #000 fixed; padding:0 15px; padding-bottom:20px !important; min-height:500px}
 
 header, footer, section, nav, article, address, aside, section{display:block;}
 
@@ -21,7 +21,6 @@ html {position: relative; min-height: 100%;}
 -------------------------------------------------- */
 /* Not required for template or sticky footer method. */
 
-body > .container { padding:0 15px;}
 .container .text-muted { margin: 20px 0;}
 .footer > .container { padding-right: 15px; padding-left: 15px;}
 
