@@ -8,8 +8,8 @@ document.write('<nav class="navbar navbar-inverse navbar-fixed-top" role="naviga
    	  '<li> <a href="index.html">Home</a> </li>'+
    	  '<li> <a href="about.html">About Us</a> </li>'+
    	  '<li> <a href="Packages.html">Packages</a> </li>'+
-   	  '<li> <a href="javascript:void(0)">Emailer</a> </li>'+
-   	  '<li> <a href="javascript:void(0)">Cities</a> </li>'+
+   	  '<li> <a href="Email-ArchivedTemplate.html">Emailer</a> </li>'+
+   	  '<li> <a href="Cities.html">Cities</a> </li>'+
    	  '<li> <a href="javascript:void(0)">Links</a> </li>'+
    	  '<li> <a href="contact.html">Contact Us</a> </li>'+
    	  '<li class="loginNav"> <span><a href="Login.html" data-toggle="modal" data-target=".bs-example-modal-lg">Login</a> / <a href="signup.html" data-toggle="modal" data-target=".bs-example-modal-lg">Sign Up</a></span> </li>'+
