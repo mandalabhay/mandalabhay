@@ -1,9 +1,31 @@
-<div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title Parisian size18 purpleBright text-center" id="myModalLabel"><strong>MODELS SIGN UP</strong></h4>
-      </div>
-      <div class="scroll">
-      	<div class="modal-body">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>MODELS WEBSITE</title>
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/default.css" rel="stylesheet">
+
+<link href="fonts/fonts.css" rel="stylesheet">
+
+<link href="css/jquery.jscrollpane.css" rel="stylesheet">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!-- Navigation -->
+<script src="header.js" type="text/javascript"></script>
+
+<!-- Page Content -->
+<div class="container">
+
         	<section class="row">
             	<div class="col-xs-6 paddingBottom20 purpleBright">
                 	<aside class="paddingLeft15">Name*</aside>
@@ -31,7 +53,7 @@
                 </div>
                 <div class="col-xs-12 paddingBottom20 purpleBright">
                 	<aside class="paddingLeft15">Phone</aside>
-                	<input type="text" class="inpDark inpError" placeholder="Phone Number" />
+                	<input type="text" class="inpDark" placeholder="Phone Number" />
                 </div>
                 <div class="col-xs-12 paddingBottom20 purpleBright">
                 	<aside class="paddingLeft15">Website</aside>
@@ -45,10 +67,36 @@
                 	<aside class="paddingLeft15">P411 Link</aside>
                 	<input type="text" class="inpDark" placeholder="Link" />
                 </div>
+                
+                <div class="col-xs-12 paddingBottom20 purpleBright text-right">
+        <a href="Login.html" data-toggle="modal" data-target=".bs-example-modal-lg">LOGIN</a> &nbsp; &nbsp; 
+        <input type="button" class="PurpleBtn" value="SIGN UP" style="width:20%">
+      </div>
             </section>
       </div>
-      </div>
-      <div class="modal-footer">
-        <a href="javascript:void(0)">LOGIN</a> &nbsp; &nbsp; 
-        <input type="button" class="PurpleBtn" value="SIGN UP" style="width:25%" />
-      </div>
+</div>
+<!-- /.container</ -->
+<!-- Footer -->
+<script src="footer.js" type="text/javascript"></script>
+
+<!-- Large modal -->
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      
+    </div>
+  </div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- the jScrollPane script -->
+<script src="js/jquery.mousewheel.js"></script>
+<script src="js/jquery.jscrollpane.min.js"></script>
+
+<script src="js/master.js"></script>
+</body>
+</html>

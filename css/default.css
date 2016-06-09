@@ -114,11 +114,11 @@ html {position: relative; min-height: 100%;}
 .close:focus, .close:hover{color:#fff;}
 /*-----------------------Footer CSS end------------------------*/
 
-.inp, .inpSmall, .inpDark, .inpWhite{border:1px solid #c2c2c2; border-radius:20px; font-size:14px; font-family:'Open Sans',Arial, Helvetica, sans-serif; padding:6px 10px; box-sizing:border-box; width:100%; max-width:100%; color:#000000; margin-top:3px; background:#fff; outline:none}
+.inp, .inpSmall, .inpDark, .inpWhite{border:1px solid #c2c2c2; border-radius:20px; font-size:14px; font-family:'Open Sans',Arial, Helvetica, sans-serif; padding:6px 10px; box-sizing:border-box; width:100%; max-width:100%; color:#000000; margin-top:3px; background:#fff; outline:none;}
 select.inp{-webkit-appearance:none; -moz-appearance:none; appearance:none;}
 .inpSmall{padding:3px 6px; font-size:13px;}
 .inpDark{border:1px solid #a6a6a6; background:url(../img/whitBgTransparent.png); color:#fff}
-.inpError{border:1px solid #8e07ff;}
+.inpError, .inpDark:focus{border:1px solid #8e07ff;}
 .inpWhite{font-size:18px; border:1px solid #e3f4f5; background:#e3f4f5; padding:9px 10px; margin:0; border-radius:0;}
 .inpWhite:focus, span.inpWhite>select:focus{border:1px solid #882df5;}
 span.inpWhite{display:block; padding:0; outline:none; position:relative}
@@ -134,7 +134,7 @@ span.inpWhite>select{width:100%;-webkit-appearance:none; -moz-appearance:none; a
 .inpDarkDrop:after{top:11px;}
 .inpDarkDrop:before{position:absolute; top:8px; right:16px; border-top:8px solid #1A1A1A; border-right:8px solid transparent; border-left:8px solid transparent; z-index:2; content:""}
 
-.PurpleBtn{border-radius:20px; font-size:14px; font-family:'Open Sans',Arial, Helvetica, sans-serif; padding:6px 10px !important; box-sizing:border-box; width:100%; max-width:100%; color:#fff; margin-top:3px; background:#8e07ff; border:0;transition:all 300ms ease-in-out;}
+.PurpleBtn{border-radius:20px; font-size:14px; font-family:'Open Sans',Arial, Helvetica, sans-serif; padding:6px 10px !important; box-sizing:border-box; width:100%; max-width:100%; color:#fff; margin-top:3px; background:#8e07ff; border:0;transition:all 300ms ease-in-out; outline:none}
 .PurpleBtn:hover, .PurpleLinkBtn:hover{background:#A236FD; color:#fff}
 
 .PurpleBtnDisable, .PurpleBtnDisable:hover{background:#999; color:#CCC; cursor:not-allowed}
