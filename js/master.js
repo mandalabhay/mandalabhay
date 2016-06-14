@@ -14,6 +14,12 @@ $(function(){
 		}); 
 	}
 	
+	if($('.preview').length>0){
+		$('.preview').click(function(){
+		  window.open('email/emailer.html', '_blank');
+		}); 
+	}
+	
 	// Navigation Active Class Funcion 
   	setNavigation()
 	
@@ -32,6 +38,8 @@ $(function(){
 	$('body').on('hidden.bs.modal', '.modal', function () {
 	  $(this).removeData('bs.modal');
 	});
+	
+	
 	
 	//$('.bs-example-modal-lg').modal('show')
 // end of ready function
