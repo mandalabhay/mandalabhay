@@ -29,10 +29,10 @@ html {position: relative; min-height: 100%;}
 .fixHeaderGap{padding-top:91px;}
 .fixHeaderGap:after{display:table; clear:both; content:"";}
 .navbar-inverse{background:url(../img/bg.jpg) center top no-repeat #000; padding:20px 0; font-family:"Parisian",Arial, Helvetica, sans-serif; margin-bottom:0}
-.navbar-inverse .navbar-brand{font-size:30px; color:#9d03ff; position:relative; transition:all 300ms ease-in-out}
+.navbar-inverse .navbar-brand{font-size:36px; color:#9d03ff; position:relative; transition:all 300ms ease-in-out}
 .navbar-brand:after{position:absolute; top:70%; left:15px; font-size:12px; content:"some text";font-family:'Open Sans',Arial, Helvetica, sans-serif; color:#a9a0b5}
-.nav{font-size: 21px;}
-.nav>li>a{padding: 15px 0px 2px 1px;margin: 0 11px;border-bottom:2px solid transparent;}
+.nav{font-size: 24px; margin-left:25px;}
+.nav>li>a{padding: 15px 0px 2px 1px;margin: 0 20px;border-bottom:2px solid transparent;}
 .navbar-inverse .navbar-nav>li>a{ color:#fff}
 .nav>li>a:hover, .nav>li.act>a{border-bottom:2px solid #9d03ff;color:#fff}
 .navbar-right{margin:0;}
@@ -202,6 +202,10 @@ span.inpWhite>select{width:100%;-webkit-appearance:none; -moz-appearance:none; a
 .borderLeft{border-left:1px solid #2b024e;}
 .borderCenter{background:url(../images/grey_pixel.gif) center 50% repeat-x;}
 .dividerUni{margin:0 15px;border-bottom:1px solid #2b024e; height:1px; clear:both;}
+
+.PurpleDrop>select option, .inpDarkDrop>select option{color:#333}
+.blueCut{position:relative; z-index:1;}
+.blueCut:after{border-bottom:48px solid transparent; border-right:70px solid #0CC; content:""; display:table; position:absolute; top:0; right:0; z-index:-1}
 
 @media (max-width:1200px){
 /*CSS For Large Screen*/	
