@@ -205,7 +205,7 @@ span.inpWhite>select{width:100%;-webkit-appearance:none; -moz-appearance:none; a
 
 .PurpleDrop>select option, .inpDarkDrop>select option{color:#333}
 .blueCut{position:relative; z-index:1;}
-.blueCut:after{border-bottom:48px solid transparent; border-right:70px solid #0CC; content:""; display:table; position:absolute; top:0; right:0; z-index:-1}
+.blueCut:after{border-bottom:48px solid transparent; border-right:70px solid #0CC; content:""; display:table; position:absolute; top:0; z-index:-1; right:0}
 
 @media (max-width:1200px){
 /*CSS For Large Screen*/	
